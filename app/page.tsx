@@ -8,6 +8,7 @@ import {
   Package2,
   Search,
   ShoppingCart,
+  Sidebar,
   Users,
 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
@@ -29,9 +30,9 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Input } from "@/components/ui/input"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import SidebarHeader from "@/components/SidebarHeader"
-import SidebarNav from "@/components/SidebarNav"
-import SidebarFooter from "@/components/SidebarFooter"
+import SidebarHeader from "@/components/Sidebar/SidebarHeader"
+import SidebarNav from "@/components/Sidebar/SidebarNav"
+import SidebarFooter from "@/components/Sidebar/SidebarFooter"
 
 export default function Dashboard() {
   return (
