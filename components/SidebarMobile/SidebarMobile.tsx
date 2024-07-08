@@ -1,14 +1,8 @@
 import { Button } from "@/components/ui/button"
 import { Menu, } from "lucide-react"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
 import SidebarMobileNav from "./SidebarMobileNav"
+import SidebarMobileFooter from "./SidebarMobileFooter"
 
 const SidebarMobile = () => {
   return (
@@ -25,22 +19,7 @@ const SidebarMobile = () => {
       </SheetTrigger>
       <SheetContent side="left" className="flex flex-col">
         <SidebarMobileNav />
-        <div className="mt-auto">
-          <Card>
-            <CardHeader>
-              <CardTitle>Upgrade to Pro</CardTitle>
-              <CardDescription>
-                Unlock all features and get unlimited access to our
-                support team.
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Button size="sm" className="w-full">
-                Upgrade
-              </Button>
-            </CardContent>
-          </Card>
-        </div>
+        <SidebarMobileFooter />
       </SheetContent>
     </Sheet>
   )

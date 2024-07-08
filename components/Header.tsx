@@ -8,9 +8,9 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { CircleUser, Search, } from "lucide-react"
+import { CircleUser, } from "lucide-react"
 import SidebarMobile from "./SidebarMobile/SidebarMobile"
-import SearchBar from "./SidebarMobile/SearchBar"
+import SearchBar from "./SearchBar"
 
 const Header = () => {
   return (
