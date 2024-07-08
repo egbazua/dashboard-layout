@@ -7,9 +7,7 @@ const Sidebar = () => {
     <div className="hidden border-r bg-muted/40 md:block">
       <div className="flex h-full max-h-screen flex-col gap-2">
         <SidebarHeader />
-        <div className="flex-1">
-          <SidebarNav />
-        </div>
+        <SidebarNav />
         <div className="mt-auto p-4">
           <SidebarFooter />
         </div>
