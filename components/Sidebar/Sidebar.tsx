@@ -1,6 +1,6 @@
-import SidebarFooter from "./Sidebar/SidebarFooter"
-import SidebarHeader from "./Sidebar/SidebarHeader"
-import SidebarNav from "./Sidebar/SidebarNav"
+import SidebarFooter from "./SidebarFooter"
+import SidebarHeader from "./SidebarHeader"
+import SidebarNav from "./SidebarNav"
 
 const Sidebar = () => {
   return (
