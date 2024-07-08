@@ -8,9 +8,7 @@ const Sidebar = () => {
       <div className="flex h-full max-h-screen flex-col gap-2">
         <SidebarHeader />
         <SidebarNav />
-        <div className="mt-auto p-4">
-          <SidebarFooter />
-        </div>
+        <SidebarFooter />
       </div>
     </div>
   )
