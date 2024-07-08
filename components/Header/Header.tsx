@@ -1,4 +1,4 @@
-import SidebarMobile from "./SidebarMobile/SidebarMobile"
+import SidebarMobile from "../SidebarMobile/SidebarMobile"
 import SearchBar from "./SearchBar"
 import UserButton from "./UserButton"
 
